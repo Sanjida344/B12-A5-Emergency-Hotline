@@ -97,3 +97,8 @@ callButtons.forEach((button) => {
     historyList.appendChild(historyItem);
   });
 });
+
+// clear history
+clearButton.addEventListener("click", function () {
+  historyList.innerHTML = "";
+});
