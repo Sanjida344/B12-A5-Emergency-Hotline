@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Hotline</title>
+      <!-- tailwind Cdn -->
+         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+         <!-- Daisy Cdn -->
+          <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+          <!-- Font awesome Cdn -->
+           <script src="https://kit.fontawesome.com/ba1a447710.js" crossorigin="anonymous"></script>
+           <!--css -->
+           <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body class="bg-base-100 max-h-[150px] lg:max-h-[300px] overflow-auto roboto-font ">
+     <!-- Navbar -->
+  <div class="w-full bg-white p-4 rounded-lg mb-4 flex flex-col md:flex-row md:justify-between md:items-center items-center text-center">
+    <!-- Left Side -->
+    <div class="flex items-center mb-4 md:mb-0">
+      <img src="./assets/logo.png" alt="Logo" class="w-14 h-14 mr-2">
+      <span class="text-xl font-bold text-green-700">Emergency Service</span>
+    </div>
+
+     <!-- Right Side-->
+    <div class="flex gap-4">
+      <!--  love Heart -->
+      <div class="flex items-center bg-gray-100 p-2 rounded-full">
+        <span id="heartCount" class="text-black font-semibold mr-2">0</span>
+        <i class="fa-solid fa-heart text-red-600"></i>
+      </div>
+</body>
+</html>
